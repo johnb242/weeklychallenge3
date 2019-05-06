@@ -23,222 +23,240 @@ public class Main {
         System.out.println("enter an email address:  ");
         String email = enterresume.nextLine();
         person1.setEmail(email);
+
+
+        education e = new education();
+
         System.out.println("Education");
 
 
         System.out.println("Enter an academic major: ");
         String undergradmajor = enterresume.nextLine();
-        person1.setUndergradmajor(undergradmajor);
+        e.setUndergradmajor(undergradmajor);
+
+
         System.out.println("Enter an undergraduate university name: ");
         String undergraduni = enterresume.nextLine();
-        person1.setUndergraduni(undergraduni);
+        e.setUndergraduni(undergraduni);
 
         System.out.println("Enter graduation year: ");
                 String undergradyear = enterresume.nextLine();
-        person1.setUndergradyear(undergradyear);
+        e.setUndergradyear(undergradyear);
 
         System.out.println("enter degree type:");
         String degreetype = enterresume.nextLine();
-        person1.setDegreetype(degreetype);
+        e.setDegreetype(degreetype);
 
         System.out.println("enter a graduate degree major:  ");
         String gradmajor = enterresume.nextLine();
-        person1.setGradmajor(gradmajor);
+        e.setGradmajor(gradmajor);
 
         System.out.println(" enter a graduate school name: ");
         String graduni = enterresume.nextLine();
-        person1.setGraduni(graduni);
+        e.setGraduni(graduni);
 
         System.out.println("enter degree type:");
         String degreetype2 = enterresume.nextLine();
-        person1.setDegreetype2(degreetype2);
+        e.setDegreetype2(degreetype2);
 
         System.out.println("Enter graduation year: ");
         String gradyear = enterresume.nextLine();
-        person1.setGradyear(gradyear);
+        e.setGradyear(gradyear);
 
-
+        experience f = new experience();
 
         System.out.println("Experience");
 
         System.out.println("Enter job title: ");
         String jobtitle = enterresume.nextLine();
-        person1.setJobtitle(jobtitle);
+        f.setJobtitle(jobtitle);
 
         System.out.println("Enter company name: " );
         String company1 = enterresume.nextLine();
-        person1.setCompany1(company1);
+        f.setCompany1(company1);
 
         System.out.println("Enter start  month : ");
         String montha1 = enterresume.nextLine();
-        person1.setMontha1(montha1);
+        f.setMontha1(montha1);
 
         System.out.println("enter start year: ");
         String  startyear1 = enterresume.nextLine();
-        person1.setStartyear1(startyear1);
+        f.setStartyear1(startyear1);
 
         System.out.println("enter end  month : ");
         String montha2 = enterresume.nextLine();
-        person1.setMontha2(montha2);
+        f.setMontha2(montha2);
 
         System.out.println("enter end year:");
         String endyear1 = enterresume.nextLine();
-        person1.setEndyear1(endyear1);
+        f.setEndyear1(endyear1);
 
         System.out.println(" Enter duty 1: ");
         String duty1 = enterresume.nextLine();
-        person1.setDuty1(duty1);
+        f.setDuty1(duty1);
 
         System.out.println(" enter duty 2:");
         String duty2 = enterresume.nextLine();
-        person1.setDuty2(duty2);
+        f.setDuty2(duty2);
 
         System.out.println("Enter job title: ");
         String jobtitle2 = enterresume.nextLine();
-        person1.setJobtitle2(jobtitle2);
+        f.setJobtitle2(jobtitle2);
 
         System.out.println("Enter company name: " );
         String company2 = enterresume.nextLine();
-        person1.setCompany2(company2);
+        f.setCompany2(company2);
 
         System.out.println("Enter start  month : ");
         String monthb1 = enterresume.nextLine();
-        person1.setMonthb1(monthb1);
+        f.setMonthb1(monthb1);
 
         System.out.println("enter start year: ");
         String  startyear2 = enterresume.nextLine();
-        person1.setStartyear2(startyear2);
+        f.setStartyear2(startyear2);
 
         System.out.println("enter end  month : ");
         String monthb2 = enterresume.nextLine();
-        person1.setMonthb2(monthb2);
+        f.setMonthb2(monthb2);
 
 
         System.out.println("enter end year:");
         String endyear2 = enterresume.nextLine();
-        person1.setEndyear2(endyear2);
+        f.setEndyear2(endyear2);
 
         System.out.println(" Enter duty 1: ");
         String duty3 = enterresume.nextLine();
-        person1.setDuty3(duty3);
+        f.setDuty3(duty3);
 
         System.out.println(" enter duty 2:");
         String duty4 = enterresume.nextLine();
-        person1.setDuty4(duty4);
+        f.setDuty4(duty4);
 
         System.out.println("Enter job title: ");
         String jobtitle3 = enterresume.nextLine();
-        person1.setJobtitle3(jobtitle3);
+        f.setJobtitle3(jobtitle3);
 
         System.out.println("Enter company name: " );
         String company3 = enterresume.nextLine();
-        person1.setCompany3(company3);
+        f.setCompany3(company3);
 
         System.out.println("Enter start  month : ");
         String monthc1 = enterresume.nextLine();
-        person1.setMonthc1(monthc1);
+        f.setMonthc1(monthc1);
 
 
         System.out.println("enter start year: ");
         String  startyear3 = enterresume.nextLine();
-        person1.setStartyear3(startyear3);
+        f.setStartyear3(startyear3);
 
         System.out.println("enter end  month : ");
         String monthc2 = enterresume.nextLine();
-        person1.setMonthc2(monthc2);
+        f.setMonthc2(monthc2);
 
         System.out.println("enter end year:");
         String endyear3 = enterresume.nextLine();
-        person1.setEndyear3(endyear3);
+        f.setEndyear3(endyear3);
 
         System.out.println(" Enter duty 1: ");
         String duty5 = enterresume.nextLine();
-        person1.setDuty5(duty5);
+        f.setDuty5(duty5);
 
         System.out.println(" enter duty 2:");
         String duty6 = enterresume.nextLine();
         System.out.println("Skills");
-        person1.setDuty6(duty6);
+        f.setDuty6(duty6);
 
+        skills g = new skills();
 
         System.out.println("Enter skill name: ");
         String skill1 = enterresume.nextLine();
-        person1.setSkill1(skill1);
+        g.setSkill1(skill1);
 
         System.out.println("Enter skill level");
         String skilllevel1 = enterresume.nextLine();
-        person1.setSkilllevel1(skilllevel1);
+        g.setSkilllevel1(skilllevel1);
 
         System.out.println("Enter skill name: ");
         String skill2 = enterresume.nextLine();
-        person1.setSkill2(skill2);
+        g.setSkill2(skill2);
 
         System.out.println("Enter skill level");
         String skilllevel2 = enterresume.nextLine();
-        person1.setSkilllevel2(skilllevel2);
+        g.setSkilllevel2(skilllevel2);
 
         System.out.println("Enter skill name: ");
         String skill3 = enterresume.nextLine();
-        person1.setSkill3(skill3);
+        g.setSkill3(skill3);
 
 
         System.out.println("Enter skill level");
         String skilllevel3 = enterresume.nextLine();
-        person1.setSkilllevel3(skilllevel3);
+        g.setSkilllevel3(skilllevel3);
 
         System.out.println("Enter skill name: ");
         String skill4 = enterresume.nextLine();
-        person1.setSkill4(skill4);
+        g.setSkill4(skill4);
 
         System.out.println("Enter skill level");
         String skilllevel4 = enterresume.nextLine();
-        person1.setSkilllevel4(skilllevel4);
+        g.setSkilllevel4(skilllevel4);
 
         System.out.println(person1.getName());
-        System.out.println(person1.getEmail());
+        System.out.println(person1.getEmail()+"\n");
         System.out.println("Education");
-        System.out.println(person1.getDegreetype()+ "in" +person1.getUndergradmajor()+",");
+        System.out.println(e.getDegreetype()+" "+ "in" +e.getUndergradmajor()+",");
 
-        System.out.println(person1.getUndergraduni()+ ","+person1.getUndergradyear());
+        System.out.println(e.getUndergraduni()+ ","+e.getUndergradyear()+"\n");
        // System.out.println(person1.getUndergradyear());
-        System.out.println(person1.getDegreetype2()+ "in "+person1.getGradmajor()+",");
+        System.out.println(e.getDegreetype2()+" "+ "in "+e.getGradmajor()+",");
        // System.out.println(person1.getGradmajor());
-        System.out.println(person1.getGraduni()+" ,"+person1.getgradyear());
+        System.out.println(e.getGraduni()+" ,"+e.getgradyear() +"\n");
         //System.out.println(person1.getgradyear());
         System.out.println("Experience");
-        System.out.println(person1.getJobtitle());
-        System.out.println(person1.getCompany1()+"," +person1.getMontha1()+person1.getStartyear1()+ "-- "+ person1.getMontha2()+person1.getEndyear1() );
+        System.out.println(f.getJobtitle());
+        System.out.println(f.getCompany1()+"," +f.getMontha1()+f.getStartyear1()+ "-- "+ f.getMontha2()+f.getEndyear1() );
       //  System.out.println(person1.getMontha1());
       //  System.out.println(person1.getStartyear1());
        // System.out.println(person1.getMontha2());
        // System.out.println(person1.getEndyear1());
-        System.out.println("duty1: "+person1.getDuty1());
-        System.out.println("duty2: "+person1.getDuty2());
-        System.out.println(person1.getJobtitle2());
-        System.out.println(person1.getCompany2()+", "+person1.getMonthb1()+person1.getStartyear2()+"--"+person1.getMonthb2()+person1.getEndyear2());
+        System.out.println("duty1: "+f.getDuty1());
+        System.out.println("duty2: "+f.getDuty2()+"\n");
+        System.out.println(f.getJobtitle2());
+        System.out.println(f.getCompany2()+", "+f.getMonthb1()+f.getStartyear2()+"--"+f.getMonthb2()+f.getEndyear2());
        // System.out.println(person1.getMonthb1());
         //System.out.println(person1.getStartyear2());
       //  System.out.println(person1.getMonthb2());
        // System.out.println(person1.getEndyear2());
-        System.out.println("duty 1: "+person1.getDuty3());
-        System.out.println("duty 2: "+person1.getDuty4());
-        System.out.println(person1.getJobtitle3());
-        System.out.println(person1.getCompany3()+" , "+person1.getMonthc1()+person1.getStartyear3()+"--"+person1.getMonthc2()+person1.getEndyear3());
+        System.out.println("duty 1: "+f.getDuty3());
+        System.out.println("duty 2: "+f.getDuty4()+"\n");
+        System.out.println(f.getJobtitle3());
+        System.out.println(f.getCompany3()+" , "+f.getMonthc1()+f.getStartyear3()+"--"+f.getMonthc2()+f.getEndyear3());
        // System.out.println(person1.getMonthc1());
         //System.out.println(person1.getStartyear3());
       //  System.out.println(person1.getMonthc2());
        // System.out.println(person1.getEndyear3());
-        System.out.println("duty 1: "+person1.getDuty5());
-        System.out.println("duty 2: "+person1.getDuty6());
+        System.out.println("duty 1: "+f.getDuty5());
+        System.out.println("duty 2: "+f.getDuty6()+"\n");
         System.out.println("skills");
-        System.out.println(person1.getSkill1()+" ,"+person1.getSkilllevel1());
+        System.out.println(g.getSkill1()+" ,"+g.getSkilllevel1());
        // System.out.println(person1.getSkilllevel1());
-        System.out.println(person1.getSkill2()+" , "+person1.getSkilllevel2());
+        System.out.println(g.getSkill2()+" , "+g.getSkilllevel2());
       //  System.out.println(person1.getSkilllevel2());
-        System.out.println(person1.getSkill3()+" , "+person1.getSkilllevel3());
+        System.out.println(g.getSkill3()+" , "+g.getSkilllevel3());
        // System.out.println(person1.getSkilllevel3());
-        System.out.println(person1.getSkill4()+","+person1.getSkilllevel4());
+        System.out.println(g.getSkill4()+","+g.getSkilllevel4());
        // System.out.println(person1.getSkilllevel4());
+
+
+
+        resumepart2 resumeorcv1 = new resumepart2(e,f,g);
+        resumeorcv1.setMyeducation(e);
+        resumeorcv1.setMyexperience(f);
+        resumeorcv1.setMyskills(g);
+
+
+       // for (Closets temp: myMainCloset){
+         //   temp.whatisinmycloset();
 
     }
 }
